@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#  Siempre, variables comunes a todos los entornos
+.env 
+# Solo en npm run dev, config específico del entorno de desarrollo
+.env.development
+# Solo en npm run build, config específico del entorno de producción
+.env.production
