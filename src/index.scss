@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #003846;
+  --secondary: #C1C1C1;
+  --tertiary: #F1F1F1;
+  --general-bg: #FFFFFF;
+  --sidebar-bg: var(--tertiary);
+  
+  --bs-link-color: var(--primary) !important;
+  --bs-link-hover-color: var(--tertiary) !important;
+  --bold: 800;
+  --semibold: 600;
+  --title: 18px;
+  --mini: 11px;
+  --animate-duration: 150ms !important;
+
+
+  --general-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  --topbar-bg: #C1C1C1;
+  --topbar-bg-text: #1a525f;
+  --sidebar-bg: #F1F1F1;
+  --sidebar-bg-text: #1a525f;
+  --auth-form_bg: #F1F1F1;
+  --auth-form-bg-text: #1a525f;
+}
+
+a {
+  &:hover{
+    color: inherit !important;
+  }
+  text-decoration: none !important;
+}
+
+body {
+  margin: 0;
+  font-family: var(--general-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  font-size: var(--title);
+  font-weight: var(--bold);
+  text-transform: uppercase;
+}
+
+.subtitle{
+  font-size: var(--title);
+  font-weight: var(--semibold);
+}
+
+.mini {
+  font-size: var(--mini);
+}
+
+._button {
+  background: #1a525f;
+}
+
+._button:hover {
+  background: #60c3b7;
+}
+
+.border_top_card{
+  box-shadow: 0px -3px 0 #1a525f, 0 1px 1px 0 rgba(60, 64, 67, 0.1), 0 1px 1px 1px rgba(60, 64, 67, 0.05);
+  border: solid 1px #e4e4e4;
+  border-top: none;
+  background: #fff;
+  padding: 20px 20px 10px 20px;
+  position: relative;
+}
+
+// .background-login{
+//   background-color: white;
+// }
+
+.font-color-login{
+  // background-color: #F1F1F1;
+  background-color: var(--auth-form_bg);
+}
+.bc-login{
+  border: 1px solid #D3D3D3;
+}
+
+.bg-button{
+  background: #1a525f;
+  color: white;
+}
+
+.form-item label {
+  font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0;
+  margin: 0px 0px 4px;
+  line-height: 1.4;
+  width: initial;
+}
+.form-required {
+  color: #f00;
+}
+
+span.error {
+  /* position: absolute; */
+  font-size: 14px;
+  color: red;
+  margin-top: -16px;
+  margin-left: 4px;
+  background: white;
+}

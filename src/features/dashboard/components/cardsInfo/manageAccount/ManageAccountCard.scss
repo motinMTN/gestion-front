@@ -1,0 +1,37 @@
+.manage-card {
+  border: solid 1px var(--secondary);
+  background: var(--tertiary);
+  padding: 15px 15px;
+  margin: 0px 15px 15px 0px;
+  max-width: 250px;
+
+  .general-info-container {
+    display: flex;
+    align-items: center;
+
+    .img-container {
+      .card-image {
+        width: 50px;
+      }
+    }
+    .info-container {
+      font-weight: var(--semibold);
+      display: flex;
+      flex-direction: column;
+      padding-left: 1.5rem;
+
+      .title {
+        font-size: var(--title);
+        text-transform: capitalize;
+      }
+      .description{
+        max-width: 100px;
+      }
+    }
+
+  }
+  &:hover{
+    opacity: 0.8;
+    color: initial;
+  }
+}

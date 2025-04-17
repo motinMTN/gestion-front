@@ -1,0 +1,75 @@
+/* .field.field-name-field-permite-cita.elegible .field-item:before, .pemite-citas-1:before {
+    content: '\f274';
+    color: #8bc34a;
+}
+
+.field.field-name-field-permite-cita .field-item:before, .pemite-citas-1:before, .pemite-citas-0:before {
+    font-family: 'Font Awesome 5 Free';
+    margin: 0px 5px 0px 0px;
+    font-size: 15px;
+}
+
+.field.field-name-field-permite-cita.not-elegible .field-item:before, .pemite-citas-0:before {
+    content: '\f273';
+    color: #f44336;
+} */
+
+.pemite-citas-1:before {
+    content: '\f274';
+    color: #8bc34a;
+}
+
+.pemite-citas-1:before, .pemite-citas-0:before {
+    font-family: 'Font Awesome 5 Free';
+    margin: 0px 5px 0px 0px;
+    font-size: 15px;
+}
+  
+.pemite-citas-0:before {
+    content: '\f273';
+    color: #f44336;
+}
+
+.pemite-citas-1{
+    background-color: #1a525f;
+}
+
+h1.main-title {
+    padding: 0px;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 23px;
+}
+table th{
+    font-size: 20px;
+}
+
+.fa-circle-plus{
+    font-size: 24px;
+    color: #9f9d9d;
+    font-weight: bold;
+}
+
+.fa-circle-plus:hover {
+    color: #1a525f;
+}
+
+input[type="submit"]:disabled {
+    background: repeating-linear-gradient(-45deg, #FFFFFF, #D2D2D2 4px) !important;
+    color: #6B6B6B !important;
+    cursor: not-allowed !important;
+    outline: none !important;
+    opacity: 0.665 !important;
+    text-shadow: 1px 1px 0px #fff !important;
+}
+.fa-hospital:before {
+    content: "\f0f8";
+}
+.catalog-total {
+    font-size: small;
+    margin-top: 9px;
+    color: #9f9d9d;
+}
+.span-total{
+    margin-left: 2px;
+}

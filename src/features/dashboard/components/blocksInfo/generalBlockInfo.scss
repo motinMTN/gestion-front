@@ -1,0 +1,33 @@
+.general-block-info {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  background: #fafafa;
+  padding: 20px 5%;
+  text-align: center;
+
+  .block-image {
+    max-width: 150px;
+    margin: 15px 0px 25px 0px;
+  }
+
+  ._button {
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    transition: all, 0.3s;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+}

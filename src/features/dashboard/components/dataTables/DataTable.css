@@ -1,0 +1,47 @@
+.ellipsis{  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* DataTable.css */
+
+
+.options-datatable-container {
+  display: flex;
+  justify-content: flex-end; /* Alinea el contenido a la derecha del contenedor */
+  padding: 8px; /* Añade un padding interno opcional */
+  margin-left: auto; /* Alinea el contenedor de búsqueda a la derecha */
+  max-height: 50px;
+}
+
+/* DataTable.css */
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido a la derecha del contenedor */
+    max-width: 400px; /* Ancho máximo del contenedor de búsqueda */
+    /* padding: 8px;  */
+    margin-left: 5px; 
+    max-height: 50px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    flex: 1; /* Permite que el campo de búsqueda ocupe todo el espacio disponible dentro del contenedor */
+  }
+  
+  .search-button {
+    padding: 5px 16px;
+    font-size: 14px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-height: 50px;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }

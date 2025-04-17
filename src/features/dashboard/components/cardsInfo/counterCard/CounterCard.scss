@@ -1,0 +1,50 @@
+.counter-card {
+  border: solid 1px var(--secondary);
+  background: var(--tertiary);
+  padding: 15px 15px;
+  margin: 0px 15px 15px 0px;
+  max-width: 250px;
+
+  .general-info-container {
+    .img-container {
+      margin-right: 20px;
+
+      .card-image {
+        width: 50px;
+      }
+    }
+
+    .stadistic-container {
+      // padding-top: 10px;
+      font-weight: var(--semibold);
+
+      .stadistic-spans {
+        .num-span {
+          font-size: var(--title);
+        }
+
+        .div-span {
+          padding-left: 8px;
+        }
+      }
+
+    }
+  }
+
+  .bar-container {
+    display: inline-block;
+    width: 100%;
+    border: solid 1px #ccc;
+    height: 5px;
+    margin: 15px 0px 0px 0px;
+    clear: left;
+    position: relative;
+    overflow: hidden;
+
+    .bar-fill {
+      display: inline-block;
+      height: 3px;
+      position: absolute;
+    }
+  }
+}

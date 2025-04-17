@@ -1,0 +1,17 @@
+.dashboard_content {
+  margin-inline: 0;
+
+  .container-fluid {
+    height: 89vh;
+    overflow-y: scroll;
+
+    .content-body {
+      // margin-top: 4rem;
+    }
+  }
+
+  .custom-row {
+    margin-inline: 0;
+    margin: 20px auto 20px auto;
+  }
+}

@@ -1,0 +1,31 @@
+@import './itemView/commons.scss';
+
+.SideBarMenu {
+  background-color: var(--sidebar-bg);
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+
+  @include transition(width);
+
+  &.expanded {
+    width: 300px;
+  }
+
+  &.collapsed {
+    width: 100px;
+  }
+
+  .menuButton {
+    display: flex;
+    justify-content: flex-end;
+
+    .hamburgerIcon {
+      cursor: pointer;
+      border: none !important;
+      color: var(--sidebar-bg-text);
+      padding: 10px;
+      width: 68px;
+    }
+  }
+}
